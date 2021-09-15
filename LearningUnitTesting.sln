@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparrow", "Sparrow\Sparrow.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparrowMSTest", "SparrowMSTest\SparrowMSTest.csproj", "{8620379E-E712-41F3-B90C-6BAEF396E96C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparrowNUnitTest", "SparrowNUnitTest\SparrowNUnitTest.csproj", "{5A0B562E-156A-4A4A-AEA8-AB579A184940}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732} = {8126BC5E-BA46-4EF8-A146-252AC1F63732}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
