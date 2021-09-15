@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparrow", "Sparrow\Sparrow.csproj", "{8126BC5E-BA46-4EF8-A146-252AC1F63732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparrowMSTest", "SparrowMSTest\SparrowMSTest.csproj", "{8620379E-E712-41F3-B90C-6BAEF396E96C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8620379E-E712-41F3-B90C-6BAEF396E96C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E77556E-8186-4C2A-A5AD-D477FBE4152D}
+	EndGlobalSection
+EndGlobal
