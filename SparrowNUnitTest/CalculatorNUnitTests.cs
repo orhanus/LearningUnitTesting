@@ -53,5 +53,15 @@ namespace Sparrow
             Calculator calc = new();
             return calc.AddNumbersDouble(a, b);
         }
+        [Test]
+        public void OddRange_InputMinAndMaxRange_ReturnsValidOddNumbers()
+        {
+            Calculator calc = new();
+            List<int> ExpectedOddRange = new() { 5, 7, 9 };
+
+            List<int> ActualResult = calc.GetOddRange(5, 10);
+
+            Assert.That(ActualResult, Is.EquivalentTo(ExpectedOddRange));
+        }
     }
 }

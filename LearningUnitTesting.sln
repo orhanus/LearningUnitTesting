@@ -3,14 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparrow", "Sparrow\Sparrow.csproj", "{8126BC5E-BA46-4EF8-A146-252AC1F63732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparrow", "Sparrow\Sparrow.csproj", "{8126BC5E-BA46-4EF8-A146-252AC1F63732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparrowMSTest", "SparrowMSTest\SparrowMSTest.csproj", "{8620379E-E712-41F3-B90C-6BAEF396E96C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparrowMSTest", "SparrowMSTest\SparrowMSTest.csproj", "{8620379E-E712-41F3-B90C-6BAEF396E96C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparrowNUnitTest", "SparrowNUnitTest\SparrowNUnitTest.csproj", "{5A0B562E-156A-4A4A-AEA8-AB579A184940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparrowNUnitTest", "SparrowNUnitTest\SparrowNUnitTest.csproj", "{5A0B562E-156A-4A4A-AEA8-AB579A184940}"
 	ProjectSection(ProjectDependencies) = postProject
 		{8126BC5E-BA46-4EF8-A146-252AC1F63732} = {8126BC5E-BA46-4EF8-A146-252AC1F63732}
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Learning", "Learning", "{B7FBDF15-2C00-4D9C-8BAF-A569F5BC3930}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BongoWeb", "BongoWeb", "{097B5D44-6A58-4042-94BB-1FE2CC7FB2E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bongo.Core", "..\..\..\Desktop\Bongo_InitialSetup (.NET 5)\Bongo.Core\Bongo.Core.csproj", "{2CD19798-90ED-4913-8716-47FBF8A6B68D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bongo.DataAccess", "..\..\..\Desktop\Bongo_InitialSetup (.NET 5)\Bongo.DataAccess\Bongo.DataAccess.csproj", "{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bongo.Models", "..\..\..\Desktop\Bongo_InitialSetup (.NET 5)\Bongo.Models\Bongo.Models.csproj", "{5281A600-A63E-42CB-93C3-CEF93D0A8745}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bongo.Web", "..\..\..\Desktop\Bongo_InitialSetup (.NET 5)\Bongo.Web\Bongo.Web.csproj", "{E5696A74-D872-4B1F-9A53-1A611934EB25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,9 +42,34 @@ Global
 		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A0B562E-156A-4A4A-AEA8-AB579A184940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD19798-90ED-4913-8716-47FBF8A6B68D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD19798-90ED-4913-8716-47FBF8A6B68D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD19798-90ED-4913-8716-47FBF8A6B68D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD19798-90ED-4913-8716-47FBF8A6B68D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5281A600-A63E-42CB-93C3-CEF93D0A8745}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5281A600-A63E-42CB-93C3-CEF93D0A8745}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5281A600-A63E-42CB-93C3-CEF93D0A8745}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5281A600-A63E-42CB-93C3-CEF93D0A8745}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5696A74-D872-4B1F-9A53-1A611934EB25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5696A74-D872-4B1F-9A53-1A611934EB25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5696A74-D872-4B1F-9A53-1A611934EB25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5696A74-D872-4B1F-9A53-1A611934EB25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8126BC5E-BA46-4EF8-A146-252AC1F63732} = {B7FBDF15-2C00-4D9C-8BAF-A569F5BC3930}
+		{8620379E-E712-41F3-B90C-6BAEF396E96C} = {B7FBDF15-2C00-4D9C-8BAF-A569F5BC3930}
+		{5A0B562E-156A-4A4A-AEA8-AB579A184940} = {B7FBDF15-2C00-4D9C-8BAF-A569F5BC3930}
+		{2CD19798-90ED-4913-8716-47FBF8A6B68D} = {097B5D44-6A58-4042-94BB-1FE2CC7FB2E4}
+		{CD0A3BED-B3EC-40C2-847E-A1C3D9FDCB46} = {097B5D44-6A58-4042-94BB-1FE2CC7FB2E4}
+		{5281A600-A63E-42CB-93C3-CEF93D0A8745} = {097B5D44-6A58-4042-94BB-1FE2CC7FB2E4}
+		{E5696A74-D872-4B1F-9A53-1A611934EB25} = {097B5D44-6A58-4042-94BB-1FE2CC7FB2E4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E77556E-8186-4C2A-A5AD-D477FBE4152D}
